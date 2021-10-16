@@ -14,22 +14,22 @@ rightBtn.addEventListener('click', () => {
   if (counter === images.length){
       counter = 0;
   }
-  output.style.opacity = '0';
-  setTimeout(() => {
-    output.style.background = images[counter]
-    output.style.opacity = '1'
-  }, 500)
+  changeImage();
 })
-
 
 leftBtn.addEventListener('click', () => {
   counter --
   if (counter < 0){
       counter = images.length -1
   }
+  changeImage();
+})
+
+
+function changeImage(){
   output.style.opacity = '0';
   setTimeout(() => {
     output.style.background = images[counter]
     output.style.opacity = '1'
   }, 500)
-})
+}
