@@ -20,7 +20,7 @@ body{
 .image-container{
   height: 90vh;
   width: 90vw;
-  background: url(/img/image1.jpg);
+  background: url(/background-img-slider/img/image1.jpg);
   position: relative;
   border: 1px solid black;
   border-radius: 5px;

@@ -1,11 +1,11 @@
 const rightBtn = document.querySelector('.right-btn');
 const leftBtn = document.querySelector('.left-btn');
 const output = document.querySelector('.image-container');
-const images = ['url(/img/image1.jpg)',
-                'url(/img/image2.jpg)',
-                'url(/img/image3.jpg)',
-                'url(/img/image4.jpg)',
-                'url(/img/image5.jpg)'];
+const images = ['url(/background-img-slider/img/image1.jpg)',
+                'url(/background-img-slider/img/image2.jpg)',
+                'url(/background-img-slider/img/image3.jpg)',
+                'url(/background-img-slider/img/image4.jpg',
+                'url(/background-img-slider/img/image5.jpg)'];
 let counter = 0;
 
 
