@@ -15,7 +15,7 @@ rightBtn.addEventListener('click', () => {
       counter = 0;
   }
   output.style.opacity = '0';
-  setTimeout(function (){
+  setTimeout(() => {
     output.style.background = images[counter]
     output.style.opacity = '1'
   }, 500)
@@ -28,7 +28,7 @@ leftBtn.addEventListener('click', () => {
       counter = images.length -1
   }
   output.style.opacity = '0';
-  setTimeout(function () {
+  setTimeout(() => {
     output.style.background = images[counter]
     output.style.opacity = '1'
   }, 500)
