@@ -1,0 +1,28 @@
+{
+  "testimonials": [
+    {
+      "avatar": "/Testimonials/img/11.jpg",
+      "client": "John",
+      "rating": "&starf;&starf;&starf;&starf;",
+      "quote": "First ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet suscipit dolor. Nullam porta."
+    },
+    {
+      "avatar": "/Testimonials/img/12.jpg",
+      "client": "Kim",
+      "rating": "&starf;&starf;&starf;",
+      "quote": "Second ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet suscipit dolor. Nullam porta."
+    },
+    {
+      "avatar": "/Testimonials/img/14.jpg",
+      "client": "Sarah",
+      "rating": "&starf;&starf;&starf;&starf;&starf;",
+      "quote": "Third ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet suscipit dolor. Nullam porta."
+    },
+    {
+      "avatar": "/Testimonials/img/44.jpg",
+      "rating": "&starf;&starf;&starf;&starf;",
+      "client": "James",
+      "quote": "Fourth ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet suscipit dolor. Nullam porta."
+    }
+  ]
+}

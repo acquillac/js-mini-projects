@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+q{
+  font-size: 1.5rem;
+}
+
+.container{
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.637);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container::before{
+  content: '';
+  position: absolute;
+  background: url(/Testimonials/img/background.jpg) no-repeat
+  center center/cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+header h2{
+  color: rgb(163, 6, 19);
+  font-size: 2rem;
+}
+
+header h1{
+  font-size: 3rem;
+  margin-bottom: 5rem;
+}
+
+.testimonial-container{
+  position: relative;
+  border: #fff 1px solid;
+  height: 50vh;
+  width: 60vw;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn{
+  font-size: 3rem;
+  padding: 1rem;
+  border-radius: 50%;
+  border: hidden;
+  background-color: rgba(138, 135, 135, 0.664);
+  font-weight: 100;
+}
+
+.btn:hover{background-color: rgba(138, 135, 135, 0.897);}
+
+.right-btn{
+  position: absolute;
+  top: center;
+  right: -65px;
+}
+.left-btn{
+  position: absolute;
+  top: center;
+  left: -65px;
+}
+
+.testimonial-content{
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.client-image{
+  background: url(/Testimonials/img/11.jpg)no-repeat
+  center center/cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem; 
+}
+
+.rating{
+  font-size: 2rem;
+  color: yellow
+}
