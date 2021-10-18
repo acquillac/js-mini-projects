@@ -7,3 +7,5 @@
 ## 3. Testimonial Page
 
 ## 4. Filtering Through a List
+
+## 5. Side Navbar
