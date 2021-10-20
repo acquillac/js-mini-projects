@@ -10,4 +10,4 @@
 
 ## 5. Side Navbar
 
-##6. Filter Shop
+## 6. Filter Shop
