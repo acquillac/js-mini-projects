@@ -9,3 +9,5 @@
 ## 4. Filtering Through a List
 
 ## 5. Side Navbar
+
+##6. Filter Shop
