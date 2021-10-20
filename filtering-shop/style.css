@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{list-style: none;}
+a{text-decoration: none;}
+
+li,a{
+  display: inline-block;
+}
+
+.site-logo{
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 5rem;
+}
+
+.site-logo{
+  font-family: 'Festive', cursive;
+  color: rgb(58, 73, 70);
+}
+.site-logo span{
+  color:rgb(22, 26, 25)
+}
+
+.navbar{
+  text-align: center;
+  background: rgb(114, 126, 114);
+}
+
+.nav-links li,
+.nav-links li a{
+  font-size: 2rem;
+  padding: 10px 15px;
+  color: rgb(58, 73, 70);
+}
+
+.search{
+  padding: 10px 15px;
+}
+
+.search input{
+  width: 40vw;
+}
+
+.search input:focus{outline: none;}
+
+.container{
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  margin: 2rem;
+}
+
+.item{
+  cursor: pointer;
+  padding: 30px;
+  background: #999;
+  height: 250px;
+}
+
