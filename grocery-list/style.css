@@ -5,9 +5,9 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-li{
-  list-style: none;
-}
+li{list-style: none;}
+h3{padding: 1rem;}
+input, button{width: 12vw; margin: 0.2rem}
 
 .container,
 .input-container,
