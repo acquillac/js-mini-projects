@@ -14,3 +14,5 @@
 ## 5. Side Navbar
 
 ## 6. Filter Shop
+
+## 7. Login Modal
