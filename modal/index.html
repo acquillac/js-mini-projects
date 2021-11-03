@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Modal Example</title>
+  </head>
+  <body>
+    <div class="modal-overlay">
+      <div class="login-container">
+        <h3>Login</h3>
+        <div class="input-container">
+          <label for="username">Username</label>
+          <input type="email" placeholder="Enter email" />
+        </div>
+        <div class="input-container">
+          <label for="password">Password</label>
+          <input type="password" placeholder="Enter password" />
+        </div>
+        <div class="rememberme">
+          <label for="rememberme">Remember Me</label><input type="checkbox" />
+        </div>
+        <input type="button" value="Login" class="modal-login-btn" />
+        <div class="modal-footer">
+          <input type="button" value="Cancel" class="modal-cancel-btn" />
+          <div class="signup">
+            <label for="SignUp">Not a member? <a href="#">Sign Up</a></label>
+            <label for="forgotpass">Forgot <a href="#">Password</a></label>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <h2>Modal Example</h2>
+      <button class="btn">Login</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
