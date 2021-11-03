@@ -1,4 +1,7 @@
 # js-mini-projects
+* Vanilla JavaScript
+* HTML
+* CSS
 
 ## 1.Random Quote Generator
 
