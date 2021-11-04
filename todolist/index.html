@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <h1>To Do List</h1>
+    <p class="error">Item is invalid</p>
+    <div class="todo-container">
+      <div class="input-container">
+        <input type="text" class="itemtext" />
+        <input type="button" value="Add Item" class="additem" />
+      </div>
+      <div class="output-container">
+        <div class="output"></div>
+      </div>
+      <p class="clear-error">Nothing to clear</p>
+      <div class="clear-items">
+        <div class="confirm-clear">
+          <input type="button" value="Clear Items" class="confirm" />
+          <input type="button" value="Cancel" class="cancel" />
+        </div>
+        <input type="button" value="Clear Items" class="clear" />
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
