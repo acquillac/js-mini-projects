@@ -3,9 +3,9 @@
 * HTML
 * CSS
 
-## 1.Random Quote Generator
+## 1. Random Quote Generator
 
-## 2.Background Image Slider
+## 2. Background Image Slider
 
 ## 3. Testimonial Page
 
@@ -20,3 +20,5 @@
 ## 8. To Do List
 
 ## 9. Counter
+
+## 10. Accordion
