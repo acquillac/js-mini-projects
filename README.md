@@ -24,3 +24,5 @@
 ## 10. Accordion
 
 ## 11. Get a random Chuck Norris Joke
+
+## 12. Simple Clock that displays local time
